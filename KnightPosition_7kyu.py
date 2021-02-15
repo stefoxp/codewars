@@ -23,7 +23,7 @@ def possible_positions(pos):
         col = col_ind + c[0]
         row = row_ind + c[1]
         
-        if (col < 8 and col >= 0) and (row < 8 and row >= 0):
+        if (0 <= col < 8) and (0 <= row < 8):
             positions.append(columns[col] + rows[row])
             
         positions.sort()

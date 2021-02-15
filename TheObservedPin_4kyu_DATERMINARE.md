@@ -1,6 +1,6 @@
 # TheObservedPin 4kyu DATERMINARE
 
-## Taks
+## Tasks
 
 Alright, detective, one of our colleagues successfully observed our target person, Robby the robber.
 We followed him to a secret warehouse, where we assume to find all the stolen stuff.
@@ -32,7 +32,7 @@ they never finally lock the system or sound the alarm. That's why we can try out
 
 Can you help us to find all those variations? It would be nice to have a function, that returns an array
 (or a list in Java) of all variations for an observed PIN with a length of 1 to 8 digits.
-We could name the function getPINs (get_pins in python). But please note that all PINs, the observed one and also
+We could name the function getPINs (get_pins in Python). But please note that all PINs, the observed one and also
 the results, must be strings, because of potentially leading '0's. We already prepared some test cases for you.
 
 Detective, we count on you!

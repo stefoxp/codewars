@@ -36,5 +36,4 @@ def get_pins(observed):
     #             result.append(r + t)
         result_map = appoggio
 
-
     return result

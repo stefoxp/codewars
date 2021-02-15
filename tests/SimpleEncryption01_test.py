@@ -46,5 +46,3 @@ class TestEncrypt(TestCase):
         self.assertEquals(encrypt("This is a test!", 4), "This is a test!")
         self.assertEquals(encrypt("This is a test!", -1), "This is a test!")
         self.assertEquals(encrypt("This kata is very interesting!", 1), "hskt svr neetn!Ti aai eyitrsig")
-
-

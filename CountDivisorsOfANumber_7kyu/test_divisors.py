@@ -1,6 +1,7 @@
 from unittest import TestCase
 from divisors import divisors
 
+
 class TestDivisors(TestCase):
     def test_divisors_of_one_is_one(self):
         self.assertEqual(divisors(1), 1)
@@ -13,6 +14,7 @@ class TestDivisors(TestCase):
 
     def test_divisors_of_four_is_two(self):
         self.assertEqual(divisors(4),3)
+
 
 '''
 Test.assert_equals(divisors(4), 3)

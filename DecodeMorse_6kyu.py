@@ -36,7 +36,7 @@ def decode(string):
                 '..': 'i',
                 '.---': 'j',
                 '-.-': 'k',
-                '.-..': 'l',
+                '.-..': 'L',
                 '--': 'm',
                 '-.': 'n',
                 '---': 'o',
@@ -69,8 +69,8 @@ def decode(string):
     for w in words:
         letters = w.split(' ')
     
-        for l in letters:
-            string += alphabet[l]
+        for L in letters:
+            string += alphabet[L]
             
         string += ' '
       

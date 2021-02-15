@@ -1,6 +1,7 @@
 from unittest import TestCase
 from decode_morse import decodeMorse
 
+
 class TestDecodeMorse(TestCase):
     def test_decode_morse_single_letter(self):
         self.assertEqual(decodeMorse(".-"), "A")

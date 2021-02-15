@@ -19,10 +19,10 @@ def decipher_this(string):
 
                     break
 
-            if (length - last) > 0:
-                result += w[-1]
-            if (length - last) > 2:
-                result += w[last+1:length - 1] + w[last]
+                if (length - last) > 0:
+                    result += w[-1]
+                if (length - last) > 2:
+                    result += w[last+1:length - 1] + w[last]
 
             # result += " "
 

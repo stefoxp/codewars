@@ -1,4 +1,4 @@
-def by_state(str):
+def by_state(input_str):
     states = {'AZ': 'Arizona',
               'CA': 'California',
               'ID': 'Idaho',
@@ -8,7 +8,7 @@ def by_state(str):
               'PA': 'Pennsylvania',
               'VA': 'Virginia'
               }
-    str_list = str.split("\n")
+    str_list = input_str.split("\n")
 
     for s in str_list:
         s = s.lstrip()
