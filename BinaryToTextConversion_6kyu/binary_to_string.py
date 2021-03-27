@@ -11,6 +11,7 @@ def binary_to_string(binary):
 
         for c in range(characters):
             result += chr(int(binary[start:start + step], 2))
+            #---Above int(string, 2) means treating string as a binary string 
             start += step
 
     return result
