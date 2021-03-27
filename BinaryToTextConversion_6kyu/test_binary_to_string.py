@@ -1,6 +1,8 @@
 from unittest import TestCase
 from binary_to_string import binary_to_string
 
+ #Use Python unittest which has class TestCase to test binary_to_string is coded correctly!
+
 
 class TestBinaryToString(TestCase):
     def test_btos_empty_is_empty(self):

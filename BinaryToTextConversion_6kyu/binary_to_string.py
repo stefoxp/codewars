@@ -13,5 +13,6 @@ def binary_to_string(binary):
             result += chr(int(binary[start:start + step], 2))
             #---Above int(string, 2) means treating string as a binary string 
             start += step
+            #---Here start is changed to the position of next char
 
     return result
