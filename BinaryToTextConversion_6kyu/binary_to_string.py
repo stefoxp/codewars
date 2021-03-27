@@ -1,4 +1,5 @@
 def binary_to_string(binary):
+    #Here the type of binary is a string! This comment is in my branch medev01
     result = ""
     step = 8
 
