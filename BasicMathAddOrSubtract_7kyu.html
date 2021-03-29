@@ -1,0 +1,21 @@
+<html>
+<head>
+  <script type="text/javascript">
+    function calculate(str) {
+      str = str.split("plus").join("+");
+      str = str.split("minus").join("-");
+
+      return eval(str) + "";
+    }
+  </script>
+</head>
+<body>
+  <h1>Verifiche:</h1>
+<script type="text/javascript">
+  document.write("<br>" + calculate("1plus2plus3plus4") + " = 10<br>");
+  document.write("<br>" + calculate('1minus2minus3minus4') + " = -8<br>");
+  document.write("<br>" + calculate('1plus2plus3minus4') + " = 2<br>");
+  
+</script>
+</body>
+</html>

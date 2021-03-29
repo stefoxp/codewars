@@ -1,0 +1,26 @@
+<html>
+<head>
+  <script type="text/javascript">
+    function points(games) {
+      var result = 0;
+      
+      for(i in games) {
+        x = games[i][0];
+        y = games[i][2];
+        
+        if(x > y)
+          result += 3;
+        else if(x == y)
+          result += 1;
+      }
+      return result;
+    }
+  </script>
+</head>
+<body>
+<script type="text/javascript">
+  document.write(points(["1:0","2:0","3:0","4:0","2:1","3:1","4:1","3:2","4:2","4:3"]) + " = 30<br>");
+  document.write(points(["1:1","2:2","3:3","4:4","2:2","3:3","4:4","3:3","4:4","4:4"]) + " = 10<br>");
+</script>
+</body>
+</html>
