@@ -1,5 +1,5 @@
 from unittest import TestCase
-from ByState_6kyu import by_state
+from by_state_6kyu import by_state
 
 
 class TestByState(TestCase):
